@@ -40,7 +40,7 @@ img{display:block;max-width:100%}
 .eyebrow,.section-label{display:flex;align-items:center;gap:9px;color:var(--gold-400);font-size:13px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
 .eyebrow-dot{opacity:.6}
 h1,h2,h3,p{margin-top:0}
-.hero h1{margin:22px 0 24px;color:#fff;font-size:clamp(40px,5vw,67px);line-height:1.23;letter-spacing:-.045em;font-weight:900}
+.hero h1{margin:22px 0 24px;color:#fff;font-size:clamp(40px,4.2vw,54px);line-height:1.23;letter-spacing:-.045em;font-weight:900}
 .hero h1 span{color:var(--gold-400)}
 .hero-lead{max-width:650px;margin-bottom:28px;color:#c4d3e2;font-size:18px;line-height:1.85}
 .hero-benefits{display:grid;gap:11px;margin:0 0 24px;padding:0;list-style:none;color:#eef5fc;font-weight:600}
