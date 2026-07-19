@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="申请免费一对一AI收入增长策略评估，帮助你明确适合自己的AI第二收入方向。">
+  <meta name="theme-color" content="#06172b">
+  <meta property="og:title" content="申请一对一AI收入增长策略评估｜靖祥 Charlie">
+  <meta property="og:description" content="完成申请后，我们会审核你的目标、阶段与执行准备度。符合条件的申请者将收到私人预约链接。">
+  <meta property="og:type" content="website">
+  <title>申请一对一AI收入增长策略评估｜靖祥 Charlie</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://tally.so">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .application-page {
+      min-height: 100vh;
+      background: radial-gradient(circle at 50% 5%, rgba(17,78,126,.32), transparent 38%), #030d18;
+    }
+    .application-page .topbar {
+      position: relative;
+      background: rgba(2,11,22,.72);
+      backdrop-filter: blur(12px);
+    }
+    .application-main { padding: 58px 0 80px; }
+    .application-intro {
+      width: min(780px, 100%);
+      margin: 0 auto 30px;
+      text-align: center;
+    }
+    .application-intro .section-label { justify-content: center; }
+    .application-intro h1 {
+      margin: 12px 0 14px;
+      color: #fff;
+      font-size: clamp(32px, 5vw, 48px);
+      line-height: 1.28;
+      letter-spacing: -.035em;
+    }
+    .application-intro p {
+      max-width: 690px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 16px;
+    }
+    .application-form-card {
+      width: min(900px, 100%);
+      min-height: 760px;
+      margin: 0 auto;
+      padding: 22px;
+      border: 1px solid rgba(255,215,111,.2);
+      border-radius: 28px;
+      background: rgba(7,27,47,.92);
+      box-shadow: var(--shadow);
+    }
+    .tally-frame {
+      display: block;
+      width: 100%;
+      min-height: 720px;
+      border: 0;
+      border-radius: 18px;
+      background: #fff;
+    }
+    .form-fallback {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+    .form-fallback a { color: var(--gold-400); text-underline-offset: 4px; }
+    @media (max-width: 700px) {
+      .application-main { padding: 38px 0 58px; }
+      .application-intro { margin-bottom: 22px; }
+      .application-intro h1 { font-size: 32px; }
+      .application-form-card { min-height: 690px; padding: 8px; border-radius: 20px; }
+      .tally-frame { min-height: 670px; border-radius: 14px; }
+    }
+  </style>
+</head>
+<body class="application-page">
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="/" aria-label="返回靖祥 Charlie 首页">
+        <span class="brand-mark" aria-hidden="true">AI</span>
+        <span>靖祥 Charlie</span>
+      </a>
+      <span class="topbar-note">AI · 副业 · 自由</span>
+    </div>
+  </header>
+
+  <main class="application-main">
+    <div class="container">
+      <section class="application-intro" aria-labelledby="application-title">
+        <div class="section-label">免费策略评估申请</div>
+        <h1 id="application-title">申请一对一AI收入增长策略评估</h1>
+        <p>请认真回答以下问题。我们会审核你的目标、目前阶段与执行准备度；符合条件的申请者将通过邮件收到私人预约链接。</p>
+      </section>
+
+      <section class="application-form-card" aria-label="一对一策略评估申请表">
+        <iframe
+          class="tally-frame"
+          data-tally-src="https://tally.so/embed/81gzyo?alignLeft=1&amp;hideTitle=1&amp;transparentBackground=1&amp;dynamicHeight=1"
+          loading="eager"
+          width="100%"
+          height="720"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          title="一对一AI收入增长策略评估申请表">
+        </iframe>
+        <p class="form-fallback">如果表格没有显示，请<a href="https://tally.so/r/81gzyo" target="_blank" rel="noopener noreferrer">直接打开申请表</a>。</p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> 靖祥 Charlie · AISun Solutions</p>
+      <div>
+        <a href="privacy.html">隐私说明</a>
+        <a href="mailto:info@aisunsolutions.com">联系我们</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    var d = document;
+    var w = "https://tally.so/widgets/embed.js";
+    var loadTally = function () {
+      if (typeof Tally !== "undefined") {
+        Tally.loadEmbeds();
+      } else {
+        d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach(function (frame) {
+          frame.src = frame.dataset.tallySrc;
+        });
+      }
+    };
+
+    if (typeof Tally !== "undefined") {
+      loadTally();
+    } else if (d.querySelector('script[src="' + w + '"]') === null) {
+      var script = d.createElement("script");
+      script.src = w;
+      script.onload = loadTally;
+      script.onerror = loadTally;
+      d.body.appendChild(script);
+    }
+
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
